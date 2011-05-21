@@ -12,3 +12,4 @@ REVISION
 config/database.yml
 config/deploy.rb
 config/enki.yml
+config/initializers/secret_token.rb

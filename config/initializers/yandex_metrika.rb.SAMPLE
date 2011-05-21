@@ -1,0 +1,6 @@
+if defined?Yandex::Metrika
+  Yandex::Metrika.counter_id = '123456'
+#  Yandex::Metrika.environments = %w'production development'
+else
+  Rails.logger.warn "[?] no Yandex.Metrika gem"
+end

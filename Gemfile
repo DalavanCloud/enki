@@ -11,6 +11,8 @@ gem 'aws-ses', :require => 'aws/ses'
 gem 'gravatar_image_tag', :git => 'git://github.com/mdeering/gravatar_image_tag.git'
 gem 'russian', :require => 'russian/transliteration'
 
+gem 'yandex_metrika', '>= 0.0.2'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
