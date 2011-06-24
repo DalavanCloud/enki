@@ -54,8 +54,6 @@ class CommentsController < ApplicationController
           @comment.openid_error = OPEN_ID_ERRORS[ result.status ]
         end
       end
-    else
-      @comment.blank_openid_fields
     end
 
     unless response.headers[Rack::OpenID::AUTHENTICATE_HEADER] # OpenID gem already provided a response
